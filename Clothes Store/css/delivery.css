@@ -1,0 +1,73 @@
+
+
+body
+{
+    background-color:#4CAF50;
+   
+}
+
+.o_container
+{
+    width: 1200px;
+    height: 690px;
+    margin: auto;
+    overflow: hidden
+}
+
+.o_container .o_contact
+{
+    width: 400px;
+    height: 650px;
+    position: relative;
+    left: 25%;
+    top: 40px;
+    background-color: #F9F9F9;
+    border: 3px solid #b09e9e;
+}
+
+.o_container .o_contact h3
+{
+   display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom:  30px;
+    color: #807676;
+    text-align: center
+}
+
+.o_container .o_contact h4
+{
+    margin-left: 32px;
+    color: #8e8484;
+}
+
+.o_container .o_contact input
+{
+    display: block;
+    margin:30px 0 0 30px;
+    width:85%;
+    border:none;
+    padding:7px;
+    border:1px solid #ccc;
+    outline: 0;
+
+}
+input::placeholder
+{
+    color:#aaa;
+    font-size: 12px
+}
+
+textarea
+{
+    margin: 30px 0 50px 32px;
+}
+button
+{
+    margin-left: -57px;
+}
+
+
+
+
+
